@@ -22,6 +22,28 @@
         }
       ]
     },
+    "future_weather": {
+      "expressions": [
+        "Tell me the weather in Paris tomorrow."
+      ],
+      "entities": [
+        {
+          "type": "trim",
+          "name": "city",
+          "conditions": [
+            {
+              "type": "after_last",
+              "from": "in"
+            },
+            {
+              "type": "between",
+              "from": "in",
+              "to": "?"
+            }
+          ]
+        }
+      ]
+    },
     "temperature": {
       "expressions": [
         "Is it cold in",

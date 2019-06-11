@@ -7,6 +7,9 @@
     "current_weather": [
       "%detailed_status% over %city%. It's %temperature% degree %temperature_units%. Humidity is %humidity% percent."
     ],
+    "future_weather": [
+      "%detailed_status% over %city% on %date% at %hour%. Temperature will be %temperature% degree %temperature_units% and humidity will be %humidity% percent."
+    ],
     "temperature": [
       "It's %temperature% degree %temperature_units% in %city%."
     ],
@@ -33,6 +36,9 @@
     ],
     "request_error": [
       "I could not understand your request."
+    ],
+    "not_found": [
+      "I can't found this city, sorry !"
     ],
     "connection_error": [
       "I'm having issuse reaching the server."
